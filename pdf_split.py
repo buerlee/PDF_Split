@@ -43,10 +43,10 @@ def PDFsplit(pdf, splits):
  
 def main():
     # pdf file to split
-    pdf = '深入理解计算机系统_3rd_edition.pdf'
+    pdf = 'Your_Sample.pdf'
  
-    # split page positions
-    splits = [100,200,300,400,500,600,700]
+    # split page positions (you can add more positions into the list below)
+    splits = [100,200]
  
     # calling PDFsplit function to split pdf
     PDFsplit(pdf, splits)
